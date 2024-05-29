@@ -55,8 +55,8 @@ function processQueue() {
 }
 
 // Importa il pacchetto typewriter-effect per ogni console.log
-typeWriterConsoleLog('TIRO DEI DADI');
-setTimeout(() => typeWriterConsoleLog('\nPremi il tasto Invio per iniziare il gioco. Oppure "c" per uscire dal gioco'), 1000);
+typeWriterConsoleLog('\n\nTIRO DEI DADI . / . / . / . / . By Marco Ruberto');
+setTimeout(() => typeWriterConsoleLog('\n\nPremi il tasto Invio per iniziare il gioco. Oppure "c" per uscire dal gioco'), 1000);
 let counter=0;
 // Funzione per il tiro dei dadi
 function tiroDadi() {
